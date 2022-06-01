@@ -8,14 +8,15 @@
 body {
     font-family: 'Open Sans', sans-serif;
 }
+
 /* estilo do topo da pagina */
 .topo {
     background: rgb(213,23,174);
     background: linear-gradient(90deg, rgba(213,23,174,0.8607908576051779) 0%, rgba(193,23,213,0.9805319579288025) 26%, rgba(95,126,229,1) 64%, rgba(3,222,244,0.8931533171521036) 88%);
     display: flex;
     align-items: center;
-    justify-content: space-evenly;
     flex-direction: column;
+    justify-content: space-evenly;
     width: 100%;
     padding: 30px 400px;
 }
@@ -27,6 +28,8 @@ body {
 #subtitulo {
     font-weight: 300;
     color: #CAC9C9;
+    padding-top: 10px 10px;
+    margin: 2% 35%;
 }
 
 #descricao {
@@ -64,8 +67,9 @@ body {
 }
 
 /* splicando estilo na foto"*/
-#photo {
-
+#foto-perfil {
+    margin-left: 25%;
+    margin-top: 20px;
 }
 
 #contato-titulo {
