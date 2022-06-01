@@ -1,4 +1,4 @@
-/*reovendo estilo padrao do navegador para receber novo estilo*/
+/*reset margens padrao do navegador para receber novo estilo*/
 *{
     margin:0;
     padding:0;
@@ -16,6 +16,7 @@ body {
     align-items: center;
     justify-content: space-evenly;
     flex-direction: column;
+    width: 100%;
     padding: 30px 400px;
 }
 
@@ -31,6 +32,7 @@ body {
 #descricao {
     font-weight: 600;
     color: #6B6A6A;
+    margin: 2px 70px;
     padding: 20px;
 }
 
@@ -40,9 +42,11 @@ body {
     color: #ffffff;
     padding: 20px;
 }
+
+
 /* estilizando do principal conteudo da pagina */
 .corpo-texto {
-    width: 150%;
+    width: 100%;
     height: 380px;
     font-weight: 400;
     margin-bottom: 60px;
@@ -51,14 +55,17 @@ body {
 .sobre-mim {
     padding-top: 15px;
 }
-/* organizando as divs lateralmente*/
+/* organizando o conteudo lateralmente e ajustando as margens*/
 #caixa-esquerda {
     float: left;
     width: 40%;
-    margin-top: 40px;
-    margin-left: 80px;
-    margin-right: 80px;
-    font-weight: 400;
+    margin: 30px 150px 20px;
+   font-weight: 400;
+}
+
+/* splicando estilo na foto"*/
+#photo {
+
 }
 
 #contato-titulo {
