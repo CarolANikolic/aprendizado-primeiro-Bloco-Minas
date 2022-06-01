@@ -1,12 +1,14 @@
+/*reovendo estilo padrao do navegador para receber novo estilo*/
 *{
     margin:0;
     padding:0;
     box-sizing:border-box;
 }
-
+/*configurando fonte*/
 body {
     font-family: 'Open Sans', sans-serif;
 }
+/* estilo do topo da pagina */
 .topo {
     background: rgb(213,23,174);
     background: linear-gradient(90deg, rgba(213,23,174,0.8607908576051779) 0%, rgba(193,23,213,0.9805319579288025) 26%, rgba(95,126,229,1) 64%, rgba(3,222,244,0.8931533171521036) 88%);
@@ -38,7 +40,7 @@ body {
     color: #ffffff;
     padding: 20px;
 }
-
+/* estilizando do principal conteudo da pagina */
 .corpo-texto {
     width: 150%;
     height: 380px;
@@ -49,7 +51,7 @@ body {
 .sobre-mim {
     padding-top: 15px;
 }
-
+/* organizando as divs lateralmente*/
 #caixa-esquerda {
     float: left;
     width: 40%;
@@ -68,6 +70,7 @@ body {
     color: #ffffff;
 }
 
+/* aplicando estilo no rodape*/
 #rodape {
     display: flex;
     padding: 40px 0;
@@ -77,6 +80,7 @@ body {
 
 }
 
+/*mudando as cores dos icones do rodape*/
 .fa-linkedin {
     color: #0c2ef5;
 }
